@@ -146,9 +146,3 @@
         </div>
       </nav>
 
-<div id="page">
-	<a href="#content" class="sr-only"><?php esc_html_e( 'Skip to content', 'internal' ); ?></a>
-
-	<?php get_template_part( 'template-parts/layout/header', 'content' ); ?>
-
-	<div id="content">
