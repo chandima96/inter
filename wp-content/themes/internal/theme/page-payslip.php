@@ -9,7 +9,7 @@ get_header(); ?>
 <!-- Header Section Start -->
 <div class="flex items-center justify-between mb-12">
     <div>
-        <img src="./assets/img/80x80-black1.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/80x80-black1.png" alt="">
     </div>
     <div>
         <h1 class="text-5xl font-h1">Payslip Form</h1>
