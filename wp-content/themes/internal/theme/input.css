@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Chivo';
+    src: url('/src/assets/fonts/Chivo-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto_Flex';
+    src: url('/src/assets/fonts/RobotoFlex-Regular.ttf');
+}
