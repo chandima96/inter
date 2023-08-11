@@ -1,6 +1,6 @@
 <?php
 /*
-	Template Name: Pay Slip
+	Template Name: Hosting & Maintenance
 */
 get_header(); ?>
 
