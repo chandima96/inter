@@ -1,4 +1,4 @@
-Internal
+internal
 ========
 
 A custom theme based on \_tw

@@ -4,7 +4,7 @@
  *
  * Eventually, some functionality here could be replaced by core features.
  *
- * @package Internal
+ * @package internal
  */
 
 if ( ! function_exists( 'internal_posted_on' ) ) :

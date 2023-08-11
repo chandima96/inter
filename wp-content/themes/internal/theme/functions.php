@@ -1,10 +1,10 @@
 <?php
 /**
- * Internal functions and definitions
+ * internal functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Internal
+ * @package internal
  */
 
 if ( ! defined( 'INTERNAL_VERSION' ) ) {
@@ -54,7 +54,7 @@ if ( ! function_exists( 'internal_setup' ) ) :
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on Internal, use a find and replace
+		 * If you're building a theme based on internal, use a find and replace
 		 * to change 'internal' to the name of your theme in all the template files.
 		 */
 		load_theme_textdomain( 'internal', get_template_directory() . '/languages' );
