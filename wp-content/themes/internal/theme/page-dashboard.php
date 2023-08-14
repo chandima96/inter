@@ -11,7 +11,7 @@ get_header(); ?>
         <div class="grid grid-cols-3 items-center">
             <div class="col-span-1">
                 <div>
-                    <img src="./assets/img/80x80-white.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/80x80-white.png" alt="">
                 </div>
             </div>
             <div class="col-span-2">
