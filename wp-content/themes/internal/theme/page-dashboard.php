@@ -8,20 +8,6 @@ get_header(); ?>
 
 <div class="max-w-5xl mx-auto py-16">
 
-        <div class="grid grid-cols-3 items-center">
-            <div class="col-span-1">
-                <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/80x80-white.png" alt="">
-                </div>
-            </div>
-            <div class="col-span-2">
-                <div>
-                    <p class="text-5xl font-h1 text-white text-end">Dashboard</p>
-                </div>
-            </div>
-        
-        </div>
-
         <div class="grid grid-cols-3 gap-36 mx-14 mt-24">
            
             <div class="col-span-1">
