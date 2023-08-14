@@ -1258,6 +1258,16 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.mx-14 {
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .-mr-2 {
   margin-right: -0.5rem;
 }
@@ -1322,6 +1332,10 @@ body {
   margin-top: 2rem;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
 .block {
   display: block;
 }
@@ -1358,6 +1372,10 @@ body {
   height: 2rem;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1380,6 +1398,10 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.w-60 {
+  width: 15rem;
 }
 
 .max-w-5xl {
@@ -1464,6 +1486,10 @@ body {
 
 .gap-24 {
   gap: 6rem;
+}
+
+.gap-36 {
+  gap: 9rem;
 }
 
 .gap-x-24 {
@@ -1561,6 +1587,11 @@ body {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-zinc-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
 }
 
 .p-1 {
