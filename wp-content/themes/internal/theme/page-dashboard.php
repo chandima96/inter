@@ -6,7 +6,7 @@ get_header(); ?>
 
 <div class="bg-zinc-800">
 
-<div class="max-w-5xl mx-auto">
+<div class="max-w-5xl mx-auto py-16">
 
         <div class="grid grid-cols-3 items-center">
             <div class="col-span-1">
