@@ -581,8 +581,9 @@ body {
   color: rgb(64 64 64 / var(--tw-text-opacity));
 }
 
-.font-chivo {
+.font-chivo-h1 {
   font-family: 'Chivo', sans-serif;
+  font-weight: bold;
 }
 
 
