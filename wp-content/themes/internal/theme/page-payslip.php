@@ -4,7 +4,7 @@
 */
 get_header(); ?>
 
-<div class="max-w-7xl mx-auto mt-16">
+<div class="max-w-7xl mx-auto px-5 mt-16">
 
 <!-- Header Section Start -->
 <div class="flex items-center justify-between mb-12">
