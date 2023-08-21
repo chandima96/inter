@@ -28,7 +28,7 @@ get_header(); ?>
         <div class="grid grid-cols-3 mt-11">
             <div class="col-span-2 mb-6">
                 <div class="mb-6">
-                    <p class="text-xl font-normal font-p mb-1">Name</p>
+                    <label class="text-xl font-normal font-p mb-1">Name</label>
                     <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="empname" type="text" placeholder="Name">
                 </div>
                 <div class="grid grid-cols-2">
