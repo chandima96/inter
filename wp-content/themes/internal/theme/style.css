@@ -586,6 +586,10 @@ body {
   font-weight: bold;
 }
 
+.font-chivo-h2 {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 900;
+}
 
 /**
  * This injects Tailwind's component classes and any component classes
