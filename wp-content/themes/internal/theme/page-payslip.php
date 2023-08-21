@@ -4,7 +4,7 @@
 */
 get_header(); ?>
 
-<div class="max-w-7xl mx-auto px-8 mt-16">
+<div class="max-w-7xl mx-auto px-5 mt-16">
 
 <!-- Header Section Start -->
 <div class="flex items-center justify-between mb-12">
@@ -141,10 +141,10 @@ get_header(); ?>
         <!-- Submit Section Start -->
 
         <div class="flex items-center gap-10 mt-14 mb-12">
-            <button class="bg-green-700 text-center text-2xl font-medium text-white px-12 py-3 rounded-xl">
+            <button class="bg-green-700 font-poppins text-center text-2xl font-medium text-white px-12 py-3 rounded-xl">
                 Submit
             </button>
-            <a class="font-bold text-2xl font-p" href="">Cancel</a>
+            <a class="font-bold text-2xl font-poppins" href="">Cancel</a>
         </div>
 
         <!-- Submit Section End -->

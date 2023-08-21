@@ -4,7 +4,7 @@
 */
 get_header(); ?>
 
-<div class="max-w-7xl mx-auto px-8 mt-16">
+<div class="max-w-7xl mx-auto px-5 mt-16">
         <div class="flex justify-between items-center">
             <div>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/80x80-black1.png" alt="">
