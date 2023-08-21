@@ -218,7 +218,7 @@ get_header(); ?>
         <!-- Submit or cancel Start-->
 
         <div class="flex items-center gap-10 mb-12">
-            <button class="bg-green-500 font-poppins text-center text-2xl font-medium text-white px-12 py-3 rounded-xl">
+            <button class="bg-green-700 font-poppins text-center text-2xl font-medium text-white px-12 py-3 rounded-xl">
                 Submit
             </button>
             <a class="font-bold text-2xl font-poppins" href="">Cancel</a>
