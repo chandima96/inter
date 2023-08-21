@@ -4,7 +4,7 @@
 */
 get_header(); ?>
 
-<div class="max-w-5xl mx-auto mt-16">
+<div class="max-w-7xl mx-auto mt-16">
 
 <!-- Header Section Start -->
 <div class="flex items-center justify-between mb-12">
@@ -29,23 +29,23 @@ get_header(); ?>
             <div class="col-span-2 mb-6">
                 <div class="mb-6">
                     <label class="text-xl font-normal font-p mb-1">Name</label>
-                    <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="empname" type="text" placeholder="Name">
+                    <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="empname" type="text" placeholder="Name">
                 </div>
                 <div class="grid grid-cols-2">
                     <div class="col-span-1">
                         <div class="mb-6">
-                            <p class="text-xl font-normal font-p mb-1">Pay period</p>
-                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="payperiod" type="month">
+                            <label class="text-xl font-normal font-p mb-1">Pay period</label>
+                            <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="payperiod" type="month">
                         </div>
 
                         <div class="mb-6">
-                            <p class="text-xl font-normal font-p mb-1">Date</p>
-                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="todayDate" type="date">
+                            <label class="text-xl font-normal font-p mb-1">Date</label>
+                            <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="todayDate" type="date">
                         </div>
 
                         <div class="mb-6">
-                            <p class="text-xl font-normal font-p mb-1">Account number</p>
-                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="accNumber" type="text" placeholder="Account Number">
+                            <label class="text-xl font-normal font-p mb-1">Account number</label>
+                            <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="accNumber" type="text" placeholder="Account Number">
                         </div>
             
                     </div>
@@ -70,45 +70,45 @@ get_header(); ?>
             
             <div class="col-span-3">
                 <div class="my-6">
-                    <p class="text-xl font-semibold font-p mb-1">Earnings</p>
+                    <label class="text-xl font-semibold font-p mb-1">Earnings</label>
                 </div>
 
                 <div class="mb-5">
-                    <p class="text-xl font-normal font-p mb-1">Basic</p>
+                    <label class="text-xl font-normal font-p mb-1">Basic</label>
                 </div>
 
                 <div class="mb-5">
-                    <p class="text-xl font-normal font-p mb-1">OT</p>
+                    <label class="text-xl font-normal font-p mb-1">OT</label>
                 </div>
 
                 <div class="mb-5">
-                    <p class="text-xl font-normal font-p mb-1">Commission</p>
+                    <label class="text-xl font-normal font-p mb-1">Commission</label>
                 </div>
 
                 <div class="mb-5">
-                    <p class="text-xl font-normal font-p mb-1">Bonus</p>
+                    <label class="text-xl font-normal font-p mb-1">Bonus</label>
                 </div>
             </div>
 
             <div class="col-span-2">
                 <div class="my-6">
-                    <p class="text-xl text-end font-semibold font-p mb-1">Amount</p>
+                    <label class="text-xl text-end font-semibold font-p mb-1">Amount</label>
                 </div>
 
                 <div class="mb-5">
-                    <input class="border rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="basic" type="text" >
+                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="basic" type="text" >
                 </div>
 
                 <div class="mb-5">
-                    <input class="border rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="basic" type="text" >
+                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="basic" type="text" >
                 </div>
 
                 <div class="mb-5">
-                    <input class="border rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="basic" type="text" >
+                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="basic" type="text" >
                 </div>
 
                 <div class="mb-5">
-                    <input class="border rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="basic" type="text" >
+                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="basic" type="text" >
                 </div>
             </div>
 
@@ -131,7 +131,7 @@ get_header(); ?>
 
             <div class="col-span-2">
                 <div class="mb-5">
-                    <input class="border rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="basic" type="text" >
+                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="basic" type="text" >
                 </div>
             </div>
         </div>
