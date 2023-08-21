@@ -591,6 +591,9 @@ body {
   font-weight: 900;
 }
 
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
 /**
  * This injects Tailwind's component classes and any component classes
  * registered by plugins, then adds custom component classes.
