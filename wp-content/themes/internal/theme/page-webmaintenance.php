@@ -15,7 +15,7 @@ get_header(); ?>
             </div>
             <div class="col-span-2">
                 <div>
-                    <p class="text-5xl font-chivo-h1 text-end">Web Development, Hosting & Maintenance Quote</p>
+                    <p class="text-5xl text-end font-chivo-h1">Web Development, Hosting & Maintenance Quote</p>
                 </div>
             </div>
         
