@@ -22,7 +22,7 @@ get_header(); ?>
 <div class="border rounded-2xl border-black mb-14">
     <div class="mx-20 ">
         <div class="flex justify-start mt-11">
-            <h2 class="text-3xl font-chivo-h2">Payslip form for the month of August, 2023</h2>
+            <h2 class="text-3xl font-chivo-h2 poppins">Payslip form for the month of August, 2023</h2>
         </div>
 
         <div class="grid grid-cols-3 mt-11">

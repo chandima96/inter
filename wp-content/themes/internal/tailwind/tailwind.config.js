@@ -13,7 +13,12 @@ module.exports = {
 	],
 	theme: {
 		// Extend the default Tailwind theme.
-		extend: {},
+		extend: {
+			fontFamily: {
+				poppins: ['"Poppins"', "sans-serif"],
+			  },
+
+		},
 	},
 	corePlugins: {
 		// Disable Preflight base styles in builds targeting the editor.
