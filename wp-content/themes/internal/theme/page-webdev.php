@@ -178,7 +178,7 @@ get_header(); ?>
         </div>
 
         <div class="mb-14">
-            <textarea class="border resize rounded-md py-2 px-3" name="" id="" cols="112" rows="3" placeholder="Additional information" ></textarea>
+            <textarea class="border resize rounded-md py-2 px-3  text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" name="" id="" cols="112" rows="3" placeholder="Additional information" ></textarea>
         </div>
 
         <!-- Service Info Section End -->

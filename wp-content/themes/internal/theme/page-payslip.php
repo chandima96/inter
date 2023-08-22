@@ -29,23 +29,23 @@ get_header(); ?>
             <div class="col-span-2 mb-6">
                 <div class="mb-6">
                     <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Name</label>
-                    <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="empname" type="text" placeholder="Name">
+                    <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="empname" type="text" placeholder="Name">
                 </div>
                 <div class="grid grid-cols-2">
                     <div class="col-span-1">
                         <div class="mb-6">
                             <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Pay period</label>
-                            <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="payperiod" type="month">
+                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="payperiod" type="month">
                         </div>
 
                         <div class="mb-6">
                             <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Date</label>
-                            <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="todayDate" type="date">
+                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="todayDate" type="date">
                         </div>
 
                         <div class="mb-6">
                             <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Account number</label>
-                            <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="accNumber" type="text" placeholder="Account Number">
+                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="accNumber" type="text" placeholder="Account Number">
                         </div>
             
                     </div>
@@ -90,7 +90,7 @@ get_header(); ?>
                 </div>
 
                 <div class="mb-5">
-                    <textarea class="border resize rounded-md py-2 px-3" name="" id="" cols="43" rows="3" placeholder="Reason for bonus" ></textarea>
+                    <textarea class="border resize rounded-md py-2 px-3  text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" name="" id="" cols="43" rows="3" placeholder="Reason for bonus" ></textarea>
                 </div>
             </div>
 
