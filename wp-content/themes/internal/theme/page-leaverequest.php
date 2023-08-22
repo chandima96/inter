@@ -13,7 +13,7 @@ get_header(); ?>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/80x80-black1.png" alt="">
             </div>
             <div>
-                <h1 class="text-5xl font-chivo text-[#0f2b1a]">Leave Request Form</h1>
+                <h1 class="text-5xl font-chivo font-bold text-[#0f2b1a]">Leave Request Form</h1>
             </div>
         </div>
         <!-- Header Section End -->
@@ -52,7 +52,7 @@ get_header(); ?>
                         <div>
                             <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Description</label>
                         </div>
-                        
+
                         <div class="mb-10">
                             <textarea class="border resize rounded-md py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" name="" id="" cols="72" rows="3" placeholder="Description" ></textarea>
                         </div>

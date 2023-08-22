@@ -15,14 +15,14 @@ get_header(); ?>
             </div>
             <div class="col-span-2">
                 <div>
-                    <p class="text-5xl text-end font-chivo text-[#0f2b1a]">Web Development, Hosting & Maintenance Quote</p>
+                    <p class="text-5xl text-end font-bold font-chivo text-[#0f2b1a]">Web Development, Hosting & Maintenance Quote</p>
                 </div>
             </div>
         
         </div>
 
         <div class="flex justify-start mt-11">
-            <h2 class="text-4xl font-chivo text-[#0f2b1a]">QN-1007</h2>
+            <h2 class="text-4xl font-chivo font-medium text-[#0f2b1a]">QN-1007</h2>
         </div>
 
         <div class="border border-black rounded-2xl mt-3 mb-16">

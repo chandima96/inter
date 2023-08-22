@@ -12,7 +12,7 @@ get_header(); ?>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/80x80-black1.png" alt="">
     </div>
     <div>
-        <h1 class="text-5xl font-chivo text-[#0f2b1a]">Payslip Form</h1>
+        <h1 class="text-5xl font-chivo font-bold text-[#0f2b1a]">Payslip Form</h1>
     </div>
 </div>
 <!-- Header Section End -->
@@ -22,7 +22,7 @@ get_header(); ?>
 <div class="border rounded-2xl border-black mb-14">
     <div class="mx-20 ">
         <div class="flex justify-start mt-11">
-            <h2 class="text-3xl font-chivo text-[#0f2b1a]">Payslip form for the month of August, 2023</h2>
+            <h2 class="text-3xl font-chivo font-medium text-[#0f2b1a]">Payslip form for the month of August, 2023</h2>
         </div>
 
         <div class="grid grid-cols-3 mt-11">
