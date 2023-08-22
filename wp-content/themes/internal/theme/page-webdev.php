@@ -231,11 +231,15 @@ get_header(); ?>
 </div>
 </div>
 <script>
-    const changeButton = document.getElementById('changeButton');
+        const changeButton = document.getElementById('changeButton');
         const qNumElement = document.getElementById('qNum');
 
+
+
         changeButton.addEventListener('click', function () {
-            qNumElement.textContent = 'New Text';
+            var qNumCount = 1001;
+            qNumCount = qNumCount + 1;
+            qNumElement.textContent = 'New Text' + qNumCount;
         });
 </script>
 
