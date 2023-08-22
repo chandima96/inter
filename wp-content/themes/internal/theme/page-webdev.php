@@ -193,7 +193,7 @@ get_header(); ?>
         <div class="grid grid-cols-3 gap-24">
             <div class="col-span-1">
                 <div class="mb-11">
-                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1" id="quonum">Quotation number</label>
+                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Quotation number</label>
                     <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="quonum" type="text" placeholder="Number">
                 </div>
             </div>
