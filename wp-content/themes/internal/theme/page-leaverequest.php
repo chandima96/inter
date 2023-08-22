@@ -58,11 +58,8 @@ get_header(); ?>
                                 <textarea class="border resize rounded-md py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" name="" id="" cols="72" rows="3" placeholder="Description" ></textarea>
                             </div>
                             
+                        </div>
                     </div>
-                    </div>
-                    <!-- Leave Form Section End -->
-
-                    <!-- Submit Section Start -->
 
                     <div class="flex items-center gap-10 mb-16">
                         <button class="bg-green-700 text-center font-poppins text-2xl font-medium text-white px-12 py-3 rounded-xl">
@@ -72,11 +69,14 @@ get_header(); ?>
                             Cancel
                         </button>
                     </div>
-
-                    <!-- Submit Section End -->
                 </div>
             </form>
+
+            <?php echo do_shortcode('[contact-form-7 id="da977b1" title="Leave Request Form 2"]'); ?>
+
         </div>
+
+        <!-- Leave Form Section Start -->
 
 
 <?php get_footer(); ?>
