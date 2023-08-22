@@ -231,19 +231,14 @@ get_header(); ?>
 </div>
 </div>
 <script>
-        const changeButton = document.getElementById('changeButton');
-        const qNumElement = document.getElementById('qNum');
+        var h2Element = document.getElementById("qNum");
+        var currentValue = h2Element.textContent;
 
+        var numericValue = parseInt(currentValue.match(/\d+/)[0]);
 
+        var newValue = numericValue + 1;
 
-        changeButton.addEventListener('click', function () {
-            var x = 1000;
-            var qNumCount = localStorage.getItem("QuoteNo");
-            qNumCount = qNumCount + 1;
-            localStorage.setItem("QuoteNo", qNumCount);
-            
-            qNumElement.textContent = 'MDW' + localStorage.getItem("QuoteNo");
-        });
+        h2Element.textContent = "QN-" + newValue;
 </script>
 
 
