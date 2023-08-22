@@ -22,7 +22,7 @@ get_header(); ?>
 </div>
 
 <div class="flex justify-start mt-11">
-    <h2 class="text-4xl font-chivo font-medium text-[#0f2b1a]">QN-1008</h2>
+    <h2 class="text-4xl font-chivo font-medium text-[#0f2b1a]" id="qNum">QN-1008</h2>
 </div>
 
 <div class="border border-black rounded-2xl mt-3 mb-16">
@@ -230,6 +230,14 @@ get_header(); ?>
     </div>
 </div>
 </div>
+<script>
+    const changeButton = document.getElementById('changeButton');
+        const qNumElement = document.getElementById('qNum');
+
+        changeButton.addEventListener('click', function () {
+            qNumElement.textContent = 'New Text';
+        });
+</script>
 
 
 <?php get_footer(); ?>
