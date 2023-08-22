@@ -20,7 +20,7 @@ get_header(); ?>
 
         <!-- Leave Form Section Start -->
         <div class="border rounded-2xl border-black">
-            <form action="">
+            <!-- <form action="">
                 <div class="mx-20"> 
                     <div class="grid grid-cols-3 ">
                         <div class="col-span-2 mt-14">
@@ -70,7 +70,7 @@ get_header(); ?>
                         </button>
                     </div>
                 </div>
-            </form>
+            </form> -->
 
             <?php echo do_shortcode('[contact-form-7 id="da977b1" title="Leave Request Form 2"]'); ?>
 
