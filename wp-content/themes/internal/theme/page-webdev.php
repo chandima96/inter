@@ -26,7 +26,7 @@ get_header(); ?>
     </div>
 
     <div class="border border-black rounded-2xl mt-3 mb-16">
-        <form action="">
+        <!-- <form action="">
 
             <div class="mx-20">
 
@@ -227,7 +227,9 @@ get_header(); ?>
                 </div>
             </div>
 
-        </form>
+        </form> -->
+
+        <?php echo do_shortcode('[contact-form-7 id="46b0e43" title="Web Development Quote Form"]'); ?>
     </div>
 </div>
 <script>
