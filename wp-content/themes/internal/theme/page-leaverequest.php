@@ -49,8 +49,11 @@ get_header(); ?>
                             <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="leavereason" type="text" placeholder="Reason">
                         </div>
 
-                        <div class="mb-10">
+                        <div>
                             <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Description</label>
+                        </div>
+                        
+                        <div class="mb-10">
                             <textarea class="border resize rounded-md py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" name="" id="" cols="72" rows="3" placeholder="Description" ></textarea>
                         </div>
                     </div>

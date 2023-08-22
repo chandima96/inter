@@ -1274,6 +1274,10 @@ body {
   text-align: end;
 }
 
+.font-chivo {
+  font-family: "Chivo", sans-serif;
+}
+
 .font-poppins {
   font-family: "Poppins", sans-serif;
 }
