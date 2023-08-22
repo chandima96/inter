@@ -239,7 +239,9 @@ get_header(); ?>
         changeButton.addEventListener('click', function () {
             var qNumCount = 1001;
             qNumCount = qNumCount + 1;
-            qNumElement.textContent = 'New Text' + qNumCount;
+            localStorage.setItem("QuoteNo", qNumCount);
+            
+            qNumElement.textContent = 'MDW' + localStorage.getItem("QuoteNo");
         });
 </script>
 
