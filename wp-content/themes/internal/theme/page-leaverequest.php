@@ -20,9 +20,10 @@ get_header(); ?>
 
         <!-- Leave Form Section Start -->
         <div class="border rounded-2xl border-black">
+            <form action="">
             <div class="mx-20"> 
                 <div class="grid grid-cols-3 ">
-                    <form class="col-span-2 mt-14">
+                    <div class="col-span-2 mt-14">
                         <div class="mb-6">
                             <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Name</label>
                             <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="empname" type="text" placeholder="Name">
@@ -56,24 +57,23 @@ get_header(); ?>
                         <div class="mb-10">
                             <textarea class="border resize rounded-md py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" name="" id="" cols="72" rows="3" placeholder="Description" ></textarea>
                         </div>
-                        <div class="flex items-center gap-10 mb-16">
-                    <button class="bg-green-700 text-center font-poppins text-2xl font-medium text-white px-12 py-3 rounded-xl">
-                        Submit
-                    </button>
-                    <a class="font-bold text-2xl font-poppins text-[#0f2b1a]" href="">Cancel</a>
+                        
                 </div>
-                    </form>
-
-                    <?php echo do_shortcode('[contact-form-7 id="cf418c3" title="Leave Request Form"]'); ?>
                 </div>
                 <!-- Leave Form Section End -->
 
                 <!-- Submit Section Start -->
 
-               
+                <div class="flex items-center gap-10 mb-16">
+                    <button class="bg-green-700 text-center font-poppins text-2xl font-medium text-white px-12 py-3 rounded-xl">
+                        Submit
+                    </button>
+                    <a class="font-bold text-2xl font-poppins text-[#0f2b1a]" href="">Cancel</a>
+                </div>
 
                 <!-- Submit Section End -->
             </div>
+            </form>
         </div>
 
 
