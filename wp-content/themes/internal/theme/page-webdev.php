@@ -218,7 +218,7 @@ get_header(); ?>
         <!-- Submit or cancel Start-->
 
         <div class="flex items-center gap-10 mb-12">
-            <button class="bg-green-700 font-poppins text-center text-2xl font-medium text-white px-12 py-3 rounded-xl">
+            <button class="bg-green-700 font-poppins text-center text-2xl font-medium text-white px-12 py-3 rounded-xl" id="changeButton">
                 Submit
             </button>
             <button class="bg-transparent text-center text-2xl font-medium hover:bg-red-500 text-gray-700  hover:text-white py-3 px-12 border border-red-500 hover:border-transparent rounded-xl">
