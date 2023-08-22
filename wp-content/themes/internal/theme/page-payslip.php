@@ -12,7 +12,7 @@ get_header(); ?>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/80x80-black1.png" alt="">
     </div>
     <div>
-        <h1 class="text-5xl font-chivo-h1">Payslip Form</h1>
+        <h1 class="text-5xl font-chivo text-[#0f2b1a]">Payslip Form</h1>
     </div>
 </div>
 <!-- Header Section End -->
@@ -22,30 +22,30 @@ get_header(); ?>
 <div class="border rounded-2xl border-black mb-14">
     <div class="mx-20 ">
         <div class="flex justify-start mt-11">
-            <h2 class="text-3xl font-poppins">Payslip form for the month of August, 2023</h2>
+            <h2 class="text-3xl font-chivo text-[#0f2b1a]">Payslip form for the month of August, 2023</h2>
         </div>
 
         <div class="grid grid-cols-3 mt-11">
             <div class="col-span-2 mb-6">
                 <div class="mb-6">
-                    <label class="text-xl font-normal font-poppins mb-1">Name</label>
-                    <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="empname" type="text" placeholder="Name">
+                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Name</label>
+                    <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="empname" type="text" placeholder="Name">
                 </div>
                 <div class="grid grid-cols-2">
                     <div class="col-span-1">
                         <div class="mb-6">
-                            <label class="text-xl font-normal font-poppins mb-1">Pay period</label>
-                            <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="payperiod" type="month">
+                            <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Pay period</label>
+                            <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="payperiod" type="month">
                         </div>
 
                         <div class="mb-6">
-                            <label class="text-xl font-normal font-poppins mb-1">Date</label>
-                            <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="todayDate" type="date">
+                            <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Date</label>
+                            <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="todayDate" type="date">
                         </div>
 
                         <div class="mb-6">
-                            <label class="text-xl font-normal font-poppins mb-1">Account number</label>
-                            <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="accNumber" type="text" placeholder="Account Number">
+                            <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Account number</label>
+                            <input class="border-2 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="accNumber" type="text" placeholder="Account Number">
                         </div>
             
                     </div>
@@ -70,45 +70,49 @@ get_header(); ?>
             
             <div class="col-span-3">
                 <div class="my-6">
-                    <label class="text-xl font-semibold font-poppins mb-1">Earnings</label>
+                    <label class="text-xl font-semibold font-poppins text-[#0f2b1a] mb-1">Earnings</label>
                 </div>
 
                 <div class="mb-5">
-                    <label class="text-xl font-normal font-poppins mb-1">Basic</label>
+                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Basic</label>
                 </div>
 
                 <div class="mb-5">
-                    <label class="text-xl font-normal font-poppins mb-1">OT</label>
+                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">OT</label>
                 </div>
 
                 <div class="mb-5">
-                    <label class="text-xl font-normal font-poppins mb-1">Commission</label>
+                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Commission</label>
                 </div>
 
                 <div class="mb-5">
-                    <label class="text-xl font-normal font-poppins mb-1">Bonus</label>
+                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Bonus</label>
+                </div>
+
+                <div class="mb-5">
+                    <textarea class="border resize rounded-md py-2 px-3" name="" id="" cols="43" rows="3" placeholder="Reason for bonus" ></textarea>
                 </div>
             </div>
 
             <div class="col-span-2">
                 <div class="my-6">
-                    <label class="text-xl text-end font-semibold font-poppins mb-1">Amount</label>
+                    <label class="text-xl text-end font-semibold font-poppins text-[#0f2b1a] mb-1">Amount</label>
                 </div>
 
                 <div class="mb-5">
-                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="basic" type="text" >
+                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="basic" type="text" >
                 </div>
 
                 <div class="mb-5">
-                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="basic" type="text" >
+                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="basic" type="text" >
                 </div>
 
                 <div class="mb-5">
-                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="basic" type="text" >
+                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="basic" type="text" >
                 </div>
 
                 <div class="mb-5">
-                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="basic" type="text" >
+                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="basic" type="text" >
                 </div>
             </div>
 
@@ -125,13 +129,13 @@ get_header(); ?>
         <div class="grid grid-cols-6">
             <div class="col-span-3">
                 <div class="mb-5">
-                    <p class="text-xl font-semibold font-poppins mb-1">Total</p>
+                    <p class="text-xl font-semibold font-poppins text-[#0f2b1a] mb-1">Total</p>
                 </div>
             </div>
 
             <div class="col-span-2">
                 <div class="mb-5">
-                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="basic" type="text" >
+                    <input class="border-2 rounded w-full py-1 text-end px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="basic" type="text" >
                 </div>
             </div>
         </div>
@@ -144,7 +148,7 @@ get_header(); ?>
             <button class="bg-green-700 font-poppins text-center text-2xl font-medium text-white px-12 py-3 rounded-xl">
                 Submit
             </button>
-            <a class="font-bold text-2xl font-poppins" href="">Cancel</a>
+            <a class="font-bold text-2xl font-poppins text-[#0f2b1a]" href="">Cancel</a>
         </div>
 
         <!-- Submit Section End -->
