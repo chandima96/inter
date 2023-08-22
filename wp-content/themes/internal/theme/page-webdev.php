@@ -231,7 +231,6 @@ get_header(); ?>
 </div>
 </div>
 <script>
-        // Get the current value from local storage, or default to 1000
         var currentValue = localStorage.getItem("qNumValue") || 1000;
 
         var numericValue = parseInt(currentValue);
@@ -239,10 +238,10 @@ get_header(); ?>
         var newValue = numericValue + 1;
 
         var h2Element = document.getElementById("qNum");
-        h2Element.textContent = "QN-" + newValue;
+        h2Element.textContent = "MDW" + newValue;
 
         var inputElement = document.getElementById("quonum");
-        inputElement.value = newValue;
+        inputElement.value = "MDW" + newValue;
 
         localStorage.setItem("qNumValue", newValue);
 </script>
