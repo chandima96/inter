@@ -199,7 +199,9 @@ get_header(); ?>
                     <button class="bg-green-500 text-center text-2xl font-poppins font-medium text-white px-12 py-3 rounded-xl">
                         Submit
                     </button>
-                    <a class="font-bold text-2xl font-poppins text-[#0f2b1a]" href="">Cancel</a>
+                    <button class="bg-transparent text-center text-2xl font-medium hover:bg-red-500 text-gray-700  hover:text-white py-3 px-12 border border-red-500 hover:border-transparent rounded-xl">
+                        Cancel
+                    </button>
                 </div>
 
                 <!-- Submit or cancel Start-->
