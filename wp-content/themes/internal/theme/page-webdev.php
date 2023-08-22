@@ -242,7 +242,7 @@ get_header(); ?>
         var h2Element = document.getElementById("qNum");
         h2Element.textContent = "MDW" + newValue;
 
-        var inputElement = document.getElementById("quonum");
+        var inputElement = document.getElementById("quoNum");
         inputElement.value = "MDW" + newValue;
 
         localStorage.setItem("qNumValue", newValue);
