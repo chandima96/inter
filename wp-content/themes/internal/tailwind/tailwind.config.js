@@ -16,6 +16,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				poppins: ['"Poppins"', "sans-serif"],
+				chivo: ['"Chivo"', "sans-serif"],
 			},
 
 		},
