@@ -22,7 +22,7 @@ get_header(); ?>
         </div>
 
         <div class="flex justify-start mt-11">
-            <h2 class="text-4xl font-chivo font-medium text-[#0f2b1a]" id="qNum"></h2>
+            <h2 class="text-4xl font-chivo font-medium text-[#0f2b1a]" id="qNumw"></h2>
         </div>
 
         <div class="border border-black rounded-2xl mt-3 mb-16">
@@ -216,7 +216,7 @@ get_header(); ?>
                             <div class="col-span-1">
                                 <div class="mb-11">
                                     <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Quotation number</label>
-                                    <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="quonum" type="text" placeholder="Number">
+                                    <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="quonumw" type="text" placeholder="Number">
                                 </div>
                             </div>
 
@@ -258,10 +258,10 @@ get_header(); ?>
 
         var newValue = numericValue + 1;
 
-        var h2Element = document.getElementById("qNum");
+        var h2Element = document.getElementById("qNumw");
         h2Element.textContent = "MDWM" + newValue;
 
-        var inputElement = document.getElementById("quoNum");
+        var inputElement = document.getElementById("quoNumw");
         inputElement.value = "MDWM" + newValue;
 
         localStorage.setItem("MqNumValue", newValue);
