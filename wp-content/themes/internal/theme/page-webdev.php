@@ -237,6 +237,7 @@ get_header(); ?>
 
 
         changeButton.addEventListener('click', function () {
+            var x = 1000;
             var qNumCount = localStorage.getItem("QuoteNo");
             qNumCount = qNumCount + 1;
             localStorage.setItem("QuoteNo", qNumCount);
