@@ -242,7 +242,7 @@ get_header(); ?>
                     </div>
                 </div>
 
-                <div class="grid grid-cols-4 gap-18">
+                <div class="grid grid-cols-4 gap-20">
                     <div>
                         <div class="mb-11">
                             <label class="text-xl font-semibold font-poppins text-[#0f2b1a] mb-1">Discount</label>
