@@ -304,31 +304,6 @@ get_header(); ?>
         <!-- <?php echo do_shortcode('[contact-form-7 id="46b0e43" title="Web Development Quote Form"]'); ?> -->
     </div>
 </div>
-<script>
-        // Get the current Quotation Number element by its ID
-        var qNumElement = document.getElementById("qNum");
-
-        // Check if there's a stored Quotation Number in local storage
-        var storedQN = localStorage.getItem("quotationNumber");
-
-        if (storedQN) {
-            // If there's a stored Quotation Number, use it
-            qNumElement.textContent = storedQN;
-        } else {
-            // If not, start with the initial Quotation Number
-            localStorage.setItem("quotationNumber", "QN-1008");
-        }
-
-        // Extract the current QN value and increment it by one
-        var currentQN = parseInt(qNumElement.textContent.split('-')[1]);
-        var newQN = currentQN + 1;
-
-        // Update the Quotation Number element with the new value
-        qNumElement.textContent = "QN-" + newQN;
-
-        // Store the updated Quotation Number in local storage
-        localStorage.setItem("quotationNumber", "QN-" + newQN);
-    </script>
 
 
 <?php get_footer(); ?>

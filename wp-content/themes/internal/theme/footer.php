@@ -50,6 +50,31 @@
           </div>
         </div>
       </footer>
+      <script>
+        // Get the current Quotation Number element by its ID
+        var qNumMainElement = document.getElementById("qNumMain");
+
+        // Check if there's a stored Quotation Number in local storage
+        var storedQN = localStorage.getItem("quotationNumber");
+
+        if (storedQN) {
+            // If there's a stored Quotation Number, use it
+            qNumMainElement.textContent = storedQN;
+        } else {
+            // If not, start with the initial Quotation Number
+            localStorage.setItem("quotationNumber", "QN-1008");
+        }
+
+        // Extract the current QN value and increment it by one
+        var currentQN = parseInt(qNumMainElement.textContent.split('-')[1]);
+        var newQN = currentQN + 1;
+
+        // Update the Quotation Number element with the new value
+        qNumMainElement.textContent = "QN-" + newQN;
+
+        // Store the updated Quotation Number in local storage
+        localStorage.setItem("quotationNumber", "QN-" + newQN);
+    </script>
 
 <?php wp_footer(); ?>
 

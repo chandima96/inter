@@ -251,20 +251,6 @@ get_header(); ?>
             
         </div>
     </div>
-<!-- <script>
-        var currentValue = localStorage.getItem("MqNumValue") || 1000;
 
-        var numericValue = parseInt(currentValue);
-
-        var newValue = numericValue + 1;
-
-        var h2Element = document.getElementById("qNumw");
-        h2Element.textContent = "MDWM" + newValue;
-
-        var inputElement = document.getElementById("quoNumw");
-        inputElement.value = "MDWM" + newValue;
-
-        localStorage.setItem("MqNumValue", newValue);
-</script> -->
 
 <?php get_footer(); ?>
