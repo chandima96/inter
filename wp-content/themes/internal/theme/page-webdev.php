@@ -94,19 +94,19 @@ get_header(); ?>
 
                 <div class="mb-11">
                         <div class="flex gap-10 mb-5">
-                            <div  class="w-3/6">
+                            <div  class="w-32">
                                 <label class="text-xl font-normal font-poppins mb-1">Description 1</label>
                                 <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description1" type="text" placeholder="Description">
                             </div>
-                            <div class="w-1/6 text-center">
+                            <div class="w-24 text-center">
                                 <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
                                 <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty1" type="text">
                             </div>
-                            <div class="w-1/6 w-20 text-center">
+                            <div class="w-24 text-center">
                                 <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
                             </div>
-                            <div class="w-1/6 w-20 text-end">
+                            <div class="w-24 text-end">
                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
                             </div>
