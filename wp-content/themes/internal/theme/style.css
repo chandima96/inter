@@ -1235,6 +1235,10 @@ body {
   grid-column: span 5 / span 5;
 }
 
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
 .col-start-1 {
   grid-column-start: 1;
 }
@@ -1459,6 +1463,10 @@ body {
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
 .items-center {
   align-items: center;
 }
@@ -1494,6 +1502,11 @@ body {
 .gap-x-24 {
   -moz-column-gap: 6rem;
        column-gap: 6rem;
+}
+
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -1568,13 +1581,13 @@ body {
   border-color: rgb(99 102 241 / var(--tw-border-opacity));
 }
 
-.border-transparent {
-  border-color: transparent;
-}
-
 .border-red-500 {
   --tw-border-opacity: 1;
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
+.border-transparent {
+  border-color: transparent;
 }
 
 .bg-gray-100 {
@@ -1597,6 +1610,10 @@ body {
   background-color: rgb(238 242 255 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1605,10 +1622,6 @@ body {
 .bg-zinc-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
-}
-
-.bg-transparent {
-  background-color: transparent;
 }
 
 .p-1 {
@@ -1849,9 +1862,20 @@ body {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+.ring {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
 .ring-black {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity));
+}
+
+.ring-slate-100 {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(241 245 249 / var(--tw-ring-opacity));
 }
 
 .ring-opacity-5 {
@@ -1938,6 +1962,11 @@ body {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:ring-sky-100:hover {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(224 242 254 / var(--tw-ring-opacity));
 }
 
 .focus\:border-sky-500:focus {
