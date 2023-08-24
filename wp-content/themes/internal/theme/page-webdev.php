@@ -384,7 +384,7 @@ get_header(); ?>
 
         </form> -->
 
-        <!-- <?php echo do_shortcode('[contact-form-7 id="46b0e43" title="Web Development Quote Form"]'); ?> -->
+        <?php echo do_shortcode('[contact-form-7 id="46b0e43" title="Web Development Quote Form"]'); ?>
     </div>
 </div>
 
