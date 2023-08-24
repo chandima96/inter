@@ -93,7 +93,7 @@ get_header(); ?>
                 </div>
 
                 <div class="mb-11">
-                        <div class="flex mb-5">
+                        <div class="flex gap-10 mb-5">
                             <div  class="w-3/6">
                                 <label class="text-xl font-normal font-poppins mb-1">Description 1</label>
                                 <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description1" type="text" placeholder="Description">
