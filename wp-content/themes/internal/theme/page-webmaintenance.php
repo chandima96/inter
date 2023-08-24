@@ -125,7 +125,7 @@ get_header(); ?>
                                     <label class="text-xl font-normal font-poppins mb-1">Description 7</label>
                                     <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description5" type="text" placeholder="Description">
                                 </div>
-                            </dicenter
+                            </div>
                             <div class="col-span-2">
                                 <div class="mb-11">
                                     <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
