@@ -92,7 +92,7 @@ get_header(); ?>
                     <h4 class="text-2xl font-medium font-poppins text-[#0f2b1a] mb-6">Service Information</h4>
                 </div>
 
-                <div class="mb-11">
+                    <div class="mb-11">
                         <div class="flex mb-5">
                             <div>
                                 <div class="grid grid-cols-6 gap-10">
@@ -132,7 +132,7 @@ get_header(); ?>
                                     <div class="col-span-3">
                                         <div>
                                             <label class="text-xl font-normal font-poppins mb-1">Description 2</label>
-                                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description1" type="text" placeholder="Description">
+                                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description2" type="text" placeholder="Description">
                                         </div>
                                     </div>
 
@@ -140,17 +140,17 @@ get_header(); ?>
                                         <div  class="grid grid-cols-3 gap-10">
                                             <div class="text-center">
                                                 <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                                <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty1" type="text">
+                                                <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty2" type="text">
                                             </div>
 
                                             <div class="text-center">
                                                 <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
+                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP2" type="text">
                                             </div>
 
                                             <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
-                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
+                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total2" type="text">
                                             </div>
                                         </div>
                                         
@@ -165,7 +165,7 @@ get_header(); ?>
                                     <div class="col-span-3">
                                         <div>
                                             <label class="text-xl font-normal font-poppins mb-1">Description 3</label>
-                                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description1" type="text" placeholder="Description">
+                                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description3" type="text" placeholder="Description">
                                         </div>
                                     </div>
 
@@ -173,17 +173,17 @@ get_header(); ?>
                                         <div  class="grid grid-cols-3 gap-10">
                                             <div class="text-center">
                                                 <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                                <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty1" type="text">
+                                                <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty3" type="text">
                                             </div>
 
                                             <div class="text-center">
                                                 <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
+                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP3" type="text">
                                             </div>
 
                                             <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
-                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
+                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total3" type="text">
                                             </div>
                                         </div>
                                         
@@ -198,7 +198,7 @@ get_header(); ?>
                                     <div class="col-span-3">
                                         <div>
                                             <label class="text-xl font-normal font-poppins mb-1">Description 4</label>
-                                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description1" type="text" placeholder="Description">
+                                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description4" type="text" placeholder="Description">
                                         </div>
                                     </div>
 
@@ -206,17 +206,17 @@ get_header(); ?>
                                         <div  class="grid grid-cols-3 gap-10">
                                             <div class="text-center">
                                                 <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                                <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty1" type="text">
+                                                <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty4" type="text">
                                             </div>
 
                                             <div class="text-center">
                                                 <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
+                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP4" type="text">
                                             </div>
 
                                             <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
-                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
+                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total4" type="text">
                                             </div>
                                         </div>
                                         
@@ -231,7 +231,7 @@ get_header(); ?>
                                     <div class="col-span-3">
                                         <div>
                                             <label class="text-xl font-normal font-poppins mb-1">Description 5</label>
-                                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description1" type="text" placeholder="Description">
+                                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description5" type="text" placeholder="Description">
                                         </div>
                                     </div>
 
@@ -239,17 +239,17 @@ get_header(); ?>
                                         <div  class="grid grid-cols-3 gap-10">
                                             <div class="text-center">
                                                 <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                                <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty1" type="text">
+                                                <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty5" type="text">
                                             </div>
 
                                             <div class="text-center">
                                                 <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
+                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP5" type="text">
                                             </div>
 
                                             <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
-                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
+                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total5" type="text">
                                             </div>
                                         </div>
                                         
@@ -264,7 +264,7 @@ get_header(); ?>
                                     <div class="col-span-3">
                                         <div>
                                             <label class="text-xl font-normal font-poppins mb-1">Description 6</label>
-                                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description1" type="text" placeholder="Description">
+                                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description6" type="text" placeholder="Description">
                                         </div>
                                     </div>
 
@@ -272,17 +272,17 @@ get_header(); ?>
                                         <div  class="grid grid-cols-3 gap-10">
                                             <div class="text-center">
                                                 <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                                <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty1" type="text">
+                                                <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty6" type="text">
                                             </div>
 
                                             <div class="text-center">
                                                 <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
+                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP6" type="text">
                                             </div>
 
                                             <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
-                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
+                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total6" type="text">
                                             </div>
                                         </div>
                                         
@@ -297,7 +297,7 @@ get_header(); ?>
                                     <div class="col-span-3">
                                         <div>
                                             <label class="text-xl font-normal font-poppins mb-1">Description 7</label>
-                                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description1" type="text" placeholder="Description">
+                                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description7" type="text" placeholder="Description">
                                         </div>
                                     </div>
 
@@ -305,17 +305,17 @@ get_header(); ?>
                                         <div  class="grid grid-cols-3 gap-10">
                                             <div class="text-center">
                                                 <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                                <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty1" type="text">
+                                                <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty7" type="text">
                                             </div>
 
                                             <div class="text-center">
                                                 <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
+                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP7" type="text">
                                             </div>
 
                                             <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
-                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
+                                                <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total7" type="text">
                                             </div>
                                         </div>
                                         
@@ -323,9 +323,6 @@ get_header(); ?>
                                 </div>
                             </div>
                         </div>
-
-
-
                     </div>
 
                 <!-- <div class="grid grid-cols-12 gap-x-10">
