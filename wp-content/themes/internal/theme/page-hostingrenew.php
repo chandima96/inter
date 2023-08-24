@@ -22,7 +22,7 @@ get_header(); ?>
         </div>
 
         <div class="flex justify-start mt-11">
-            <h2 class="text-4xl font-chivo font-medium text-[#0f2b1a]" id="renewQnum">QN-1010</h2>
+            <h2 class="text-4xl font-chivo font-medium text-[#0f2b1a]" id="qNumw">QN-1010</h2>
         </div>
 
         <div class="border border-black rounded-2xl mt-3 mb-16">
@@ -209,19 +209,19 @@ get_header(); ?>
         </div>
     </div>
     <script>
-        var currentValue = localStorage.getItem("renewQnum") || 1000;
+        var currentValue1 = localStorage.getItem("renewQnum") || 1000;
 
-        var numericValue = parseInt(currentValue);
+        var numericValue1 = parseInt(currentValue);
 
-        var newValue = numericValue + 1;
+        var newValue1 = numericValue1 + 1;
 
-        var h2Element = document.getElementById("qNumw");
-        h2Element.textContent = "MDRE" + newValue;
+        var h2Element1 = document.getElementById("qNumw");
+        h2Element1.textContent = "MDRE" + newValue1;
 
-        var inputElement = document.getElementById("quoNumw");
-        inputElement.value = "MDRE" + newValue;
+        var inputElement1 = document.getElementById("quoNumw");
+        inputElement1.value = "MDRE" + newValue1;
 
-        localStorage.setItem("renewQnum", newValue);
+        localStorage.setItem("renewQnum", newValue1);
 </script>
 
 
