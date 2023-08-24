@@ -115,7 +115,7 @@ get_header(); ?>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
                                             </div>
 
-                                            <div class="text-center">
+                                            <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
                                             </div>
@@ -148,7 +148,7 @@ get_header(); ?>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
                                             </div>
 
-                                            <div class="text-center">
+                                            <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
                                             </div>
@@ -181,7 +181,7 @@ get_header(); ?>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
                                             </div>
 
-                                            <div class="text-center">
+                                            <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
                                             </div>
@@ -214,7 +214,7 @@ get_header(); ?>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
                                             </div>
 
-                                            <div class="text-center">
+                                            <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
                                             </div>
@@ -247,7 +247,7 @@ get_header(); ?>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
                                             </div>
 
-                                            <div class="text-center">
+                                            <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
                                             </div>
@@ -280,7 +280,7 @@ get_header(); ?>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
                                             </div>
 
-                                            <div class="text-center">
+                                            <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
                                             </div>
@@ -313,7 +313,7 @@ get_header(); ?>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
                                             </div>
 
-                                            <div class="text-center">
+                                            <div class="text-end">
                                                 <label class="text-xl font-normal font-poppins mb-1">Total</label>
                                                 <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
                                             </div>
