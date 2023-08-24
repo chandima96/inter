@@ -89,149 +89,108 @@ get_header(); ?>
                             <h4 class="text-2xl font-medium font-poppins text-[#0f2b1a] mb-6">Service Information</h4>
                         </div>
                         
-                        <div class="grid grid-cols-12 gap-x-10">
-                            <div class="col-span-6">
+                        <div class="grid grid-cols-3 gap-x-24">
+                            <div class="col-span-2">
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Description 1</label>
+                                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Description 1</label>
                                     <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description1" type="text" placeholder="Description">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Description 2</label>
+                                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Description 2</label>
                                     <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description2" type="text" placeholder="Description">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Description 3</label>
+                                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Description 3</label>
                                     <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description3" type="text" placeholder="Description">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Description 4</label>
+                                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Description 4</label>
                                     <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description4" type="text" placeholder="Description">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Description 5</label>
+                                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Description 5</label>
                                     <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description5" type="text" placeholder="Description">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Description 6</label>
+                                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Description 6</label>
                                     <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description5" type="text" placeholder="Description">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Description 7</label>
+                                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Description 7</label>
+                                    <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description5" type="text" placeholder="Description">
+                                </div>
+
+                                <div class="mb-11">
+                                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Description 8</label>
+                                    <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description5" type="text" placeholder="Description">
+                                </div>
+
+                                <div class="mb-11">
+                                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Description 9</label>
+                                    <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description5" type="text" placeholder="Description">
+                                </div>
+
+                                <div class="mb-11">
+                                    <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Description 10</label>
                                     <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="description5" type="text" placeholder="Description">
                                 </div>
                             </div>
-                            <div class="col-span-2">
+
+                            <div class="col-span-1">
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty1" type="text">
+                                    <label class="text-xl text-end font-normal font-poppins text-[#0f2b1a] mb-1">Amount 1</label>
+                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="amount1" type="text">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty2" type="text">
+                                    <label class="text-xl text-end font-normal font-poppins text-[#0f2b1a] mb-1">Amount 2</label>
+                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="amount2" type="text">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty3" type="text">
+                                    <label class="text-xl text-end font-normal font-poppins text-[#0f2b1a] mb-1">Amount 3</label>
+                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="amount3" type="text">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty4" type="text">
+                                    <label class="text-xl text-end font-normal font-poppins text-[#0f2b1a] mb-1">Amount 4</label>
+                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="amount4" type="text">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty5" type="text">
+                                    <label class="text-xl text-end font-normal font-poppins text-[#0f2b1a] mb-1">Amount 5</label>
+                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="amount5" type="text">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty6" type="text">
+                                    <label class="text-xl text-end font-normal font-poppins text-[#0f2b1a] mb-1">Amount 6</label>
+                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="amount5" type="text">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Quantity</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="qty7" type="text">
-                                </div>
-                            </div>
-                            <div class="col-span-2">
-                                <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
+                                    <label class="text-xl text-end font-normal font-poppins text-[#0f2b1a] mb-1">Amount 7</label>
+                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="amount5" type="text">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP2" type="text">
+                                    <label class="text-xl text-end font-normal font-poppins text-[#0f2b1a] mb-1">Amount 8</label>
+                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="amount5" type="text">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP3" type="text">
+                                    <label class="text-xl text-end font-normal font-poppins text-[#0f2b1a] mb-1">Amount 9</label>
+                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="amount5" type="text">
                                 </div>
 
                                 <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP4" type="text">
-                                </div>
-
-                                <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP5" type="text">
-                                </div>
-
-                                <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP6" type="text">
-                                </div>
-
-                                <div class="mb-11">
-                                    <label class="text-xl font-normal font-poppins mb-1">Unit Price</label>
-                                    <input class="border rounded w-full text-center font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="unitP7" type="text">
-                                </div>
-                            </div>
-                            <div class="col-span-2">
-                                <div class="mb-11">
-                                    <label class="text-xl text-end font-normal font-poppins mb-1">Total</label>
-                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total1" type="text">
-                                </div>
-
-                                <div class="mb-11">
-                                    <label class="text-xl text-end font-normal font-poppins mb-1">Total</label>
-                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total2" type="text">
-                                </div>
-
-                                <div class="mb-11">
-                                    <label class="text-xl text-end font-normal font-poppins mb-1">Total</label>
-                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total3" type="text">
-                                </div>
-
-                                <div class="mb-11">
-                                    <label class="text-xl text-end font-normal font-poppins mb-1">Total</label>
-                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total4" type="text">
-                                </div>
-
-                                <div class="mb-11">
-                                    <label class="text-xl text-end font-normal font-poppins mb-1">Total</label>
-                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total5" type="text">
-                                </div>
-
-                                <div class="mb-11">
-                                    <label class="text-xl text-end font-normal font-poppins mb-1">Total</label>
-                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total6" type="text">
-                                </div>
-
-                                <div class="mb-11">
-                                    <label class="text-xl text-end font-normal font-poppins mb-1">Total</label>
-                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="total7" type="text">
+                                    <label class="text-xl text-end font-normal font-poppins text-[#0f2b1a] mb-1">Amount 10</label>
+                                    <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="amount5" type="text">
                                 </div>
                             </div>
                         </div>
@@ -292,7 +251,7 @@ get_header(); ?>
             
         </div>
     </div>
-<script>
+<!-- <script>
         var currentValue = localStorage.getItem("MqNumValue") || 1000;
 
         var numericValue = parseInt(currentValue);
@@ -306,6 +265,6 @@ get_header(); ?>
         inputElement.value = "MDWM" + newValue;
 
         localStorage.setItem("MqNumValue", newValue);
-</script>
+</script> -->
 
 <?php get_footer(); ?>

@@ -208,7 +208,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
-    <script>
+    <!-- <script>
         var currentValue1 = localStorage.getItem("renewQnum") || 1000;
 
         var numericValue1 = parseInt(currentValue);
@@ -222,7 +222,7 @@ get_header(); ?>
         inputElement1.value = "MDRE" + newValue1;
 
         localStorage.setItem("renewQnum", newValue1);
-</script>
+</script> -->
 
 
     <?php get_footer(); ?>

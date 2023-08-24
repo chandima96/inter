@@ -304,7 +304,7 @@ get_header(); ?>
         <!-- <?php echo do_shortcode('[contact-form-7 id="46b0e43" title="Web Development Quote Form"]'); ?> -->
     </div>
 </div>
-<!-- <script>
+<script>
         var currentValue = localStorage.getItem("qNumValue") || 1000;
 
         var numericValue = parseInt(currentValue);
@@ -318,7 +318,7 @@ get_header(); ?>
         inputElement.value = "MDW" + newValue;
 
         localStorage.setItem("qNumValue", newValue);
-</script> -->
+</script>
 
 
 <?php get_footer(); ?>
