@@ -95,37 +95,37 @@ get_header(); ?>
                 <div class="grid grid-cols-12 gap-x-10">
                     <div class="col-span-6">
                         <div class="mb-11">
-                            < class="text-xl font-normal font-p mb-1">Description 1</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="description1" type="text" placeholder="Description">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl font-normal font-p mb-1">Description 2</>
+                            <label class="text-xl font-normal font-p mb-1">Description 2</label>
                             <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="description2" type="text" placeholder="Description">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl font-normal font-p mb-1">Description 3</>
+                            <label class="text-xl font-normal font-p mb-1">Description 3</label>
                             <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="description3" type="text" placeholder="Description">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl font-normal font-p mb-1">Description 4</>
+                            <label class="text-xl font-normal font-p mb-1">Description 4</label>
                             <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="description4" type="text" placeholder="Description">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl font-normal font-p mb-1">Description 5</>
+                            <label class="text-xl font-normal font-p mb-1">Description 5</label>
                             <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="description5" type="text" placeholder="Description">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl font-normal font-p mb-1">Description 6</>
+                            <label class="text-xl font-normal font-p mb-1">Description 6</label>
                             <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="description5" type="text" placeholder="Description">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl font-normal font-p mb-1">Description 7</>
+                            <label class="text-xl font-normal font-p mb-1">Description 7</label>
                             <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="description5" type="text" placeholder="Description">
                         </div>
 
@@ -134,109 +134,109 @@ get_header(); ?>
 
                     <div class="col-span-2">
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Quantity</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="qty1" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Quantity</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="qty2" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Quantity</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="qty3" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Quantity</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="qty4" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Quantity</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="qty5" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Quantity</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="qty6" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Quantity</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="qty7" type="text">
                         </div>
                     </div>
                     <div class="col-span-2">
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Unit Price</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="unitP1" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Unit Price</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="unitP2" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Unit Price</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="unitP3" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Unit Price</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="unitP4" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Unit Price</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="unitP5" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Unit Price</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="unitP6" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-center font-normal font-p mb-1">Unit Price</>
+                            <label class="text-xl font-normal font-p mb-1">Description 1</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="unitP7" type="text">
                         </div>
                     </div>
                     <div class="col-span-2">
                         <div class="mb-11">
-                            < class="text-xl text-end font-normal font-p mb-1">Total</>
+                            <label class="text-xl text-end font-normal font-p mb-1">Total</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="total1" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-end font-normal font-p mb-1">Total</>
+                            <label class="text-xl text-end font-normal font-p mb-1">Total</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="total2" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-end font-normal font-p mb-1">Total</>
+                            <label class="text-xl text-end font-normal font-p mb-1">Total</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="total3" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-end font-normal font-p mb-1">Total</>
+                            <label class="text-xl text-end font-normal font-p mb-1">Total</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="total4" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-end font-normal font-p mb-1">Total</>
+                            <label class="text-xl text-end font-normal font-p mb-1">Total</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="total5" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-end font-normal font-p mb-1">Total</>
+                            <label class="text-xl text-end font-normal font-p mb-1">Total</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="total6" type="text">
                         </div>
 
                         <div class="mb-11">
-                            < class="text-xl text-end font-normal font-p mb-1">Total</>
+                            <label class="text-xl text-end font-normal font-p mb-1">Total</label>
                             <input class="border rounded w-full text-end font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight ring ring-slate-100 hover:ring-sky-100 focus:outline-none focus:shadow-outline" id="total7" type="text">
                         </div>
                     </div>
