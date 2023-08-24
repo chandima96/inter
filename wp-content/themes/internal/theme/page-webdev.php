@@ -305,20 +305,30 @@ get_header(); ?>
     </div>
 </div>
 <script>
-        var currentValue = localStorage.getItem("qNumValue") || 1000;
+        // Get the current Quotation Number element by its ID
+        var qNumElement = document.getElementById("qNum");
 
-        var numericValue = parseInt(currentValue);
+        // Check if there's a stored Quotation Number in local storage
+        var storedQN = localStorage.getItem("quotationNumber");
 
-        var newValue = numericValue + 1;
+        if (storedQN) {
+            // If there's a stored Quotation Number, use it
+            qNumElement.textContent = storedQN;
+        } else {
+            // If not, start with the initial Quotation Number
+            localStorage.setItem("quotationNumber", "QN-1008");
+        }
 
-        var h2Element = document.getElementById("qNum");
-        h2Element.textContent = "MDW" + newValue;
+        // Extract the current QN value and increment it by one
+        var currentQN = parseInt(qNumElement.textContent.split('-')[1]);
+        var newQN = currentQN + 1;
 
-        var inputElement = document.getElementById("quoNum");
-        inputElement.value = "MDW" + newValue;
+        // Update the Quotation Number element with the new value
+        qNumElement.textContent = "QN-" + newQN;
 
-        localStorage.setItem("qNumValue", newValue);
-</script>
+        // Store the updated Quotation Number in local storage
+        localStorage.setItem("quotationNumber", "QN-" + newQN);
+    </script>
 
 
 <?php get_footer(); ?>
