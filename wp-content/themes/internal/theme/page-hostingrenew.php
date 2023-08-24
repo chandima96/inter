@@ -22,7 +22,7 @@ get_header(); ?>
         </div>
 
         <div class="flex justify-start mt-11">
-            <h2 class="text-4xl font-chivo font-medium text-[#0f2b1a]">QN-1010</h2>
+            <h2 class="text-4xl font-chivo font-medium text-[#0f2b1a]" id="renewQnum">QN-1010</h2>
         </div>
 
         <div class="border border-black rounded-2xl mt-3 mb-16">
@@ -172,7 +172,7 @@ get_header(); ?>
                     <div class="col-span-1">
                         <div class="mb-11">
                             <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Quotation number</label>
-                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="quonum" type="text" placeholder="Number">
+                            <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="quoNumw" type="text" placeholder="Number">
                         </div>
                     </div>
 
@@ -208,6 +208,21 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <script>
+        var currentValue = localStorage.getItem("renewQnum") || 1000;
+
+        var numericValue = parseInt(currentValue);
+
+        var newValue = numericValue + 1;
+
+        var h2Element = document.getElementById("qNumw");
+        h2Element.textContent = "MDRE" + newValue;
+
+        var inputElement = document.getElementById("quoNumw");
+        inputElement.value = "MDRE" + newValue;
+
+        localStorage.setItem("renewQnum", newValue);
+</script>
 
 
     <?php get_footer(); ?>
