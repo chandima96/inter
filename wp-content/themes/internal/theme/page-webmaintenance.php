@@ -28,7 +28,7 @@ get_header(); ?>
         <div class="border border-black rounded-2xl mt-3 mb-16">
 
         <!-- Service From Start -->
-        <form action="">
+        <!-- <form action="">
 
             <div class="mx-20">
 
@@ -395,7 +395,9 @@ get_header(); ?>
                 </div>
             </div>
 
-        </form>
+        </form> -->
+
+             <?php echo do_shortcode('[contact-form-7 id="8cda9e4" title="Web Development, Hosting & Maintenance Quote Form"]'); ?>
 
             <!-- Service From End -->
             
