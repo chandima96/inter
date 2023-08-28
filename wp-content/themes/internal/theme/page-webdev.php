@@ -79,6 +79,11 @@ get_header(); ?>
                                         <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Country</label>
                                         <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="country" type="text" placeholder="Country">
                                     </div>
+
+                                    <div class="mb-11">
+                                        <label class="text-xl font-normal font-poppins text-[#0f2b1a] mb-1">Website</label>
+                                        <input class="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="website" type="text" placeholder="Website">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -326,6 +331,12 @@ get_header(); ?>
                     </div>
 
                 <div class="grid grid-cols-4 gap-20">
+                    <div>
+                        <div class="mb-11">
+                            <label class="text-xl font-semibold font-poppins text-[#0f2b1a] mb-1">Sub Total</label>
+                            <input class="border rounded w-full font-semibold tabular-nums py-2 px-3 text-gray-700 leading-tight focus:border-sky-500 focus:outline-none focus:shadow-outline" id="subtotal">
+                        </div>
+                    </div>
                     <div>
                         <div class="mb-11">
                             <label class="text-xl font-semibold font-poppins text-[#0f2b1a] mb-1">Discount</label>
