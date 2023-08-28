@@ -388,7 +388,7 @@ get_header(); ?>
 
         </form> -->
 
-           
+        <?php echo do_shortcode('[contact-form-7 id="99c2691" title="Hosting & Maintenance Quote Form"]'); ?>
         </div>
     </div>
 
