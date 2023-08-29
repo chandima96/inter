@@ -4,12 +4,19 @@
 */
 get_header(); ?>
 
+<?php
+
+$blog_page_title = get_field('blog_page_title');
+$blog_page_title_bottom_line = get_field('blog_page_title_bottom_line');
+
+?>
+
 
 <div class="bg-white py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
-      <p class="mt-2 text-lg leading-8 text-gray-600">Learn how to grow your business with our expert advice.</p>
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"><?php echo $blog_page_title; ?></h2>
+      <p class="mt-2 text-lg leading-8 text-gray-600"><?php echo $blog_page_title_bottom_line; ?></p>
     </div>
     <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
 
